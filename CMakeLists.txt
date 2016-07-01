@@ -10,7 +10,7 @@ set(source_files
 	sample_main.cpp
 	SerialPort.cpp
 	BaseDeDatos.cpp
-  TestEndpointTarget.cpp
+  #TestEndpointTarget.cpp
 	TestTarget.cpp
 )
 

@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <iostream>
 #include "SerialPort.h"
-//#include "ConexionWeb.h"
 #include "Poco/ConsoleChannel.h"
 #include "Poco/Exception.h"
 #include "Poco/Thread.h"
