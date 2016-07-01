@@ -1,0 +1,12 @@
+Estas son instrucciones para agregar y compilar todas las librerias necesarias
+para ejecutar el presente proyecto
+
+Descargar las librerias boost, en el presente proyecto se usa la version 1.6.1
+http://www.boost.org/users/history/version_1_61_0.html
+
+Seguir las instrucciones para instalar
+http://www.boost.org/doc/libs/1_61_0/more/getting_started/unix-variants.html
+
+Descargar la librería socket.io Poco
+https://github.com/himynameschris/socket.io-poco
+Ejecutar el script para instalar dependecias y luego compilar las librerías

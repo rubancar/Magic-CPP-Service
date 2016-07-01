@@ -1,0 +1,7 @@
+CXXFLAGS := SerialPort.cpp BaseDeDatos.cpp -std=c++11 -I/usr/include/mysql -I/usr/include/mysql++ -I/home/ruben/Documents/ESPOL/prueba_cpp/boost -I/home/ruben/Documents/ESPOL/prueba_cpp/boost/boost_1_61_0/boost
+CPPFLAGS := -g
+LDFLAGS := -L/usr/lib
+LDLIBS := -lboost_system -lboost_thread -lpthread -lmysqlpp
+EXECUTABLE := sample_main
+all: $(EXECUTABLE)
+clean: rm -f $(EXECUTABLE) *.o
